@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class L3q29 {
     public static void main(String[] args) {
-        // Calculate Average Of N Numbers
+        // Calculate Average Of N Numbers .
         Scanner input = new Scanner(System.in);
         System.out.print("Enter the number of values to average: ");
         int N = input.nextInt();
