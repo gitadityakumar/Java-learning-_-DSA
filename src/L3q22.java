@@ -23,7 +23,7 @@ class Solution {
             int digit = n % 10;
             product *= digit;
             sum += digit;
-            n /= 10;
+            n /= 10; //Here, n is divided by 10 to remove the last digit and prepare for the next iteration.
         }
 
         return product - sum;
