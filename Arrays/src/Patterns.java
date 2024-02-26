@@ -5,10 +5,15 @@ public class Patterns {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter a integer number : ");
         int n = input.nextInt();
-        triangularPainting(n);
+        /*
+                triangularPainting(n);
+                rightAnglePyramid2(n);
+                rightangleP(n);
+                squareP(n);
+        */
+        invertedRightPyramid(n);
 
-//        rightangleP(n);
-//        squareP(n);
+
         input.close(); // for closing scanner .
     }
     static void squareP(int num){
@@ -40,4 +45,25 @@ public class Patterns {
         }
     }
 
+    static void rightAnglePyramid2(int num) {
+        for (int i = 1; i <= num; i++) {
+            for (int j = 1; j <= i; j++) {
+                System.out.print(i);
+            }
+            System.out.println();
+
+        }
+    }
+    
+    static void invertedRightPyramid(int num){
+        for (int i = 0; i < num; i++) {
+            for (int j = num; j > i; j--) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+    static void  invertedNumberedRightPyramid(int num){
+        
+    }
 }
