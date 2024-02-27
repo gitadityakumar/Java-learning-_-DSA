@@ -11,7 +11,9 @@ public class Patterns {
                 rightangleP(n);
                 squareP(n);
         */
-        invertedRightPyramid(n);
+//        invertedRightPyramid(n);
+        invertedNumberedRightPyramid(n);
+
 
 
         input.close(); // for closing scanner .
@@ -64,6 +66,14 @@ public class Patterns {
         }
     }
     static void  invertedNumberedRightPyramid(int num){
+        for (int i = 0; i < num; i++) {
+            for (int j = num; j > i; j--) {
+                System.out.print(num-j+1);
+
+            }
+            System.out.println();
+
+        }
         
     }
 }
