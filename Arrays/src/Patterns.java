@@ -14,7 +14,8 @@ public class Patterns {
 //        invertedRightPyramid(n);
 //        invertedNumberedRightPyramid(n);
 //        starPattern(n);
-        invertedStarPattern(n);
+//        invertedStarPattern(n);
+
 
 
 
@@ -127,5 +128,9 @@ public class Patterns {
 
             System.out.println();
         }
+    }
+
+    static void HalfDiamondStarPattern(int num){
+
     }
 }
